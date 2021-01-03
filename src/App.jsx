@@ -29,7 +29,6 @@ function App() {
             <Route path="/character/:id" component={CharacterDetail}/>
             <Route path="/location/:id" component={LocationDetail}/>
             <Route path="/episode/:id" component={EpisodeDetail}/>
-            <Route path="/episode/:id" component={EpisodeDetail}/>
           </div>
         </Router>
       </Provider>
